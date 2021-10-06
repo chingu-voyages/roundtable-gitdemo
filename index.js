@@ -3,7 +3,7 @@ const elems = {
   fahrenheit: document.querySelector("input#fahrenheit"),
 };
 
-// Convert to Fahrenheit
+// Convert Celcius to Fahenheit for non-metric users
 function celsiusToFahrenheit(temp) {
   return (temp * 9) / 5 + 32;
 }
