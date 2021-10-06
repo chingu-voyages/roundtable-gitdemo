@@ -3,6 +3,7 @@ const elems = {
   fahrenheit: document.querySelector("input#fahrenheit"),
 };
 
+// Convert to Fahrenheit
 function celsiusToFahrenheit(temp) {
   return (temp * 9) / 5 + 32;
 }
