@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="../taskCommonStyles.css" />
+    <!-- GUI ------------------------------------------------- -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../">Back</a>
+      </nav>
+      <h1>Temperature Converter</h1>
+      <div id="line">
+        ===================================================================================================================================================================
+      </div>
+    </header>
+    <section id="description">
+      <h2>Challenge:</h2>
+      <p>Bidirectional data flow, user-provided text input.</p>
+      <h2>Criteria:</h2>
+      <ul id="criteria">
+        <li>
+          The task is to build a frame containing 2 textfields representing the temperature in Celsius and Fahrenheit.
+        </li>
+        <li>Initially, both textfields are empty.</li>
+        <li>
+          When the user enters a numerical value into a textfield, the corresponding value in the other is automatically
+          updated.
+        </li>
+        <li>When the user enters a non-numerical string into a textfield, the value in the other is not updated.</li>
+        <li>Formula for converting a temperature from Celsius to Fahrenheit: F = C * (9/5) + 32</li>
+        <li>Formula for converting a temperature from Fahrenheit to Celsius: C = (F - 32) * (5/9)</li>
+      </ul>
+      <p>
+        Temperature Converter increases the complexity of Counter by having bidirectional data flow between the Celsius
+        and Fahrenheit inputs and the need to check the user input for validity. A good solution will make the
+        bidirectional dependency very clear with minimal boilerplate code.
+      </p>
+      <p>
+        Temperature Converter is inspired by the
+        <a href="https://www.artima.com/pins1ed/gui-programming.html#32.4" target="_blank" rel="noopener noreferrer"
+          >Celsius/Fahrenheit converter</a
+        >
+        from the book Programming in Scala. It is such a widespread example—sometimes also in the form of a currency
+        converter—that one could give a thousand references. The same is true for the Counter task.
+      </p>
+      <img alt="A dialogue box with 2 inputs with label celsius & fahrenheit." src="/images/temperatureConverter.png" />
+    </section>
+
+    <section id="gui">
+      <!-- GUI ------------------------------------------------- -->
+      <form id="tempConverter">
+        <h1>Temperature Converter</h1>
+        <div class="row">
+          <input id="celsius" oninput="onCelsiusInput(event)" step=".01" type="number" autofocus />
+          <label for="celsius">Celsius</label>&nbsp;=
+          <input id="fahrenheit" oninput="onFahrenheitInput(event)" step=".01" type="number" />
+          <label for="fahrenheit">Fahrenheit</label>
+        </div>
+      </form>
+
+      <section id="assumptions">
+        <h2>Assumptions:</h2>
+        <ul>
+          <li>Temperature accuracy is to 2 decimal points.</li>
+        </ul>
+      </section>
+      <section id="code">
+        <h2>Code:</h2>
+        <p>
+          After opening a code link below, hit the '.' key to open GitHub's browser editor for improved reading
+          experience.
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/bradwoods/7-guis-html-css-js/blob/main/docs/temperature-converter/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/bradwoods/7-guis-html-css-js/blob/main/docs/temperature-converter/styles.css"
+              target="_blank"
+              rel="noopener noreferrer"
+              >CSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/bradwoods/7-guis-html-css-js/blob/main/docs/temperature-converter/index.js"
+              target="_blank"
+              rel="noopener noreferrer"
+              >JS</a
+            >
+          </li>
+        </ul>
+      </section>
+    </section>
+    <!-- GUI ------------------------------------------------- -->
+    <script src="index.js"></script>
+  </body>
+</html>
