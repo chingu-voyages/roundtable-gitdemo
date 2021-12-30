@@ -8,10 +8,12 @@ function celsiusToFahrenheit(temp) {
   return (temp * 9) / 5 + 32;
 }
 
+// Convert a temperature from Fahenheit to Celcius
 function fahrenheitToCelsius(temp) {
   return ((temp - 32) * 5) / 9;
 }
 
+// Process a change in the Celcius temperature as input by the user
 function onCelsiusInput(event) {
   const { value } = event.target;
   fahrenheit.value = celsiusToFahrenheit(value).toFixed(2);
