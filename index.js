@@ -3,7 +3,7 @@ const elems = {
   fahrenheit: document.querySelector("input#fahrenheit"),
 }
 
-// Convert Celcius to Fahenheit for non-metric users
+// Convert Celcius to Fahenheit for non-Metric users
 function celsiusToFahrenheit(temp) {
   return (temp * 9) / 5 + 32
 }
@@ -14,6 +14,7 @@ function fahrenheitToCelsius(temp) {
 }
 
 // Process a change in the Celcius temperature as input by the user
+// so we can convert it to Fahrenheit
 function onCelsiusInput(event) {
   const { value } = event.target
   fahrenheit.value = celsiusToFahrenheit(value).toFixed(2)
