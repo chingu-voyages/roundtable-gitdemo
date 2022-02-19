@@ -7,8 +7,8 @@ Isn't this fun!!! It most certainly is! Here comes a merge conflict!
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
+      Lalala-->Bebebebe;
+      OOOoo-->Zzzzz;
       B-->D;
       C-->D;
 ```
