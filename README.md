@@ -7,6 +7,8 @@ Isn't this fun!!! It most certainly is! Here comes a merge conflict!
 
 ```mermaid
   graph TD;
-      FE Celcius-->BE Fahrenheit;
-      FE Fahrenheit-->BE Celcius;
+      A-->B;
+      A-->C;
+      B-->E;
+      C-->E;
 ```
