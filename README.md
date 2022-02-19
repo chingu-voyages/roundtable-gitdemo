@@ -9,6 +9,6 @@ Isn't this fun!!! It most certainly is! Here comes a merge conflict!
   graph TD;
       A-->B;
       A-->C;
-      B-->D;
-      C-->D;
+      B-->E;
+      C-->E;
 ```
