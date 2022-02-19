@@ -12,3 +12,5 @@ Isn't this fun!!! It most certainly is! Here comes a merge conflict!
       B-->D;
       C-->D;
 ```
+
+I love this feature
