@@ -12,3 +12,4 @@ Here's a simple example of how to create a graph in a Markdown file
       B-->D;
       C-->D;
 ```
+Will this new line cause a merge conflict? Inquiring minds want to know!
