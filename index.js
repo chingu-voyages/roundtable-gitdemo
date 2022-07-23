@@ -7,6 +7,7 @@ const elems = {
 
 // Convert Celcius to Fahenheit for non-Metric users
 function celsiusToFahrenheit(temp) {
+  console.log('celsiusToFahrenheit - temp: ', temp)
   return (temp * 9) / 5 + zeroInCelcius
 }
 
