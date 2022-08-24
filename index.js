@@ -1,4 +1,4 @@
-const zeroInCelcius = 32
+const zeroInCelcius = 32 // This is a comment
 
 const elems = {
   celsius: document.querySelector("input#celsius"),
