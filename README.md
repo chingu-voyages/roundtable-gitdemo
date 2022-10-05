@@ -12,4 +12,4 @@ Here's a simple example of how to create a graph in a Markdown file
       B-->D;
       C-->D;
 ```
-Commit messages are important
+Commit messages are important. Because I said so!!!
