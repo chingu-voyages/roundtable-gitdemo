@@ -1,4 +1,6 @@
 const zeroInCelcius = 32 // This is a comment
+const tempConvOffset5 = 5
+const tempConvOffset9 = 9
 
 const elems = {
   celsius: document.querySelector("input#celsius"),
@@ -7,17 +9,13 @@ const elems = {
 
 // Convert Celcius to Fahenheit for non-Metric users
 function celsiusToFahrenheit(temp) {
-<<<<<<< HEAD
   console.log('celsiusToFahrenheit - temperature: ', temp)
-=======
-  console.log('celsiusToFahrenheit - temperature in the temp variable: ', temp)
->>>>>>> a85879fd7f2270d905b630790f47d31a5f95b7d6
-  return (temp * 9) / 5 + zeroInCelcius
+  return (temp * tempConvOffset9) / tempConvOffset5 + zeroInCelcius
 }
 
 // Convert a temperature from Fahenheit to Celcius
 function fahrenheitToCelsius(temp) {
-  return ((temp - zeroInCelcius) * 5) / 9
+  return ((temp - zeroInCelcius) * tempConvOffset5) / tempConvOffset9
 }
 
 // Process a change in the Celcius temperature as input by the user
