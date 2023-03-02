@@ -2,6 +2,7 @@ const zeroInCelcius = 32 // This is a comment
 const tempConvOffset5 = 5
 const tempConvOffset9 = 9
 
+// Create input fields for temperature values
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
@@ -25,6 +26,7 @@ function onCelsiusInput(event) {
   fahrenheit.value = celsiusToFahrenheit(value).toFixed(2)
 }
 
+// Process a change in the Fahrenheit temperature as input by the user
 function onFahrenheitInput(event) {
   const { value } = event.target
   celsius.value = fahrenheitToCelsius(value).toFixed(2)
