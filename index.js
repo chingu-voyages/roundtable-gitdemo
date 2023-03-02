@@ -26,6 +26,7 @@ function onCelsiusInput(event) {
   fahrenheit.value = celsiusToFahrenheit(value).toFixed(2)
 }
 
+// Process a change in the Fahrenheit temperature as input by the user
 function onFahrenheitInput(event) {
   const { value } = event.target
   celsius.value = fahrenheitToCelsius(value).toFixed(2)
