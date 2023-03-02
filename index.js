@@ -3,6 +3,7 @@ const tempConvOffset5 = 5
 const tempConvOffset9 = 9
 
 // Create input fields for temperature values
+// TODO: Add input assertion
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
@@ -26,6 +27,7 @@ function onCelsiusInput(event) {
   fahrenheit.value = celsiusToFahrenheit(value).toFixed(2)
 }
 
+// Capture Fahrenheit value
 function onFahrenheitInput(event) {
   const { value } = event.target
   celsius.value = fahrenheitToCelsius(value).toFixed(2)
