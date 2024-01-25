@@ -3,14 +3,14 @@ const tempConvOffset5 = 5
 const tempConvOffset9 = 9
 
 // Create input fields for temperature values
-// TODO: Validate inputs for
+// TODO: Validate Celcius input when it changes and the Fahrenheit input when
+// it is modified for some reason
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
 }
 
 // Convert Celcius to Fahenheit for non-Metric users
-// TODO: Format returned temp to 1 decimal place
 function celsiusToFahrenheit(temp) {
   console.log('celsiusToFahrenheit - temperature: ', temp)
   return (temp * tempConvOffset9) / tempConvOffset5 + zeroInCelcius
