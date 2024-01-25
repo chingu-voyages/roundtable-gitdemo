@@ -4,7 +4,7 @@ const tempConvOffset9 = 9
 
 // Create input fields for temperature values
 // TODO: Validate Celcius input when it changes and the Fahrenheit input when
-// it is modified
+// it is modified for some reason
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
