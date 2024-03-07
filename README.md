@@ -12,6 +12,7 @@ Here's a simple example of how to create a graph in a Markdown file
       B-->D;
       C-->D;
 ```
-Commit messages are important because they are so useful when resolving issues that may come up after the PR is merged.
+Commit messages are important because they are so useful when resolving issues 
+that may come up after the PR is merged.
 
-I hope this creates a merge conflict, but I'm not 100% certain it will. 
+You should never update files directly in GitHub. Doing this greatly increases the risk of a merge conflict!!!!!!!!!
