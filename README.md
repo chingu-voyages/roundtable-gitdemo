@@ -13,4 +13,7 @@ Here's a simple example of how to create a graph in a Markdown file
       C-->D;
 ```
 Commit messages are important because they are so useful when resolving issues 
-that may come up after the PR is merged.
+that may come up after the PR is merged. Always make sure you create a summary
+of the changes you've made in your commit message.
+
+What do you think about this?
