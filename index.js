@@ -2,8 +2,7 @@ const zeroInCelcius = 32 // This is a comment
 const tempConvOffset5 = 5
 const tempConvOffset9 = 9
 
-// Create input fields for temperature values. Andres is a git-God! But,
-// he's too tied to non-gui tools
+// Create input fields for temperature values in both Celcius and Fahrenheit
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
