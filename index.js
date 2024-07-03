@@ -1,5 +1,5 @@
-const zeroInCelcius = 32 // Freezing in Fahrenheit
-const tempConvOffset5 = 5
+const zeroInCelcius = 32 // This is a comment
+const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9
 
 // Create input fields for temperature values in both Celcius and Fahrenheit. 
