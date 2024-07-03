@@ -9,11 +9,7 @@ const elems = {
   fahrenheit: document.querySelector("input#fahrenheit"),
 }
 
-<<<<<<< HEAD
-// Convert Celcius to Fahrenheit for non-Metric users
-=======
 // Convert Celcius to Fahenheit for non-Metric users. In other words, from Celcius to Imperial.
->>>>>>> b3b7392882c1d277cc42b61f69fd8125a24019c4
 function celsiusToFahrenheit(temp) {
   console.log('celsiusToFahrenheit - temperature: ', temp)
   return (temp * tempConvOffset9) / tempConvOffset5 + zeroInCelcius
