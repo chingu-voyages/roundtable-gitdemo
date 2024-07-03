@@ -1,5 +1,5 @@
 const zeroInCelcius = 32 // This is a comment
-const tempConvOffset5 = 5
+const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9
 
 // Create input fields for temperature values in both Celcius and Fahrenheit
@@ -8,7 +8,7 @@ const elems = {
   fahrenheit: document.querySelector("input#fahrenheit"),
 }
 
-// Convert Celcius to Fahenheit for non-Metric users
+// Convert Celcius to Fahrenheit for non-Metric users
 function celsiusToFahrenheit(temp) {
   console.log('celsiusToFahrenheit - temperature: ', temp)
   return (temp * tempConvOffset9) / tempConvOffset5 + zeroInCelcius
