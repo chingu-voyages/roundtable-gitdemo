@@ -1,8 +1,9 @@
-const zeroInCelcius = 32 // This is a comment
+const zeroInCelcius = 32 // Freezing in Fahrenheit
 const tempConvOffset5 = 5
 const tempConvOffset9 = 9
 
-// Create input fields for temperature values in both Celcius and Fahrenheit. This will be used in the temperature conversion logic.
+// Create input fields for temperature values in both Celcius and Fahrenheit. 
+// This will be used in the temperature conversion logic.
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
