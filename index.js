@@ -1,4 +1,4 @@
-const zeroInCelcius = 32 // This is a comment
+const zeroInCelcius = 32 // Fahrenheit degrees equal to Celcius 0
 const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9
 
