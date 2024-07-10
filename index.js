@@ -31,3 +31,5 @@ function onFahrenheitInput(event) {
   const { value } = event.target
   celsius.value = fahrenheitToCelsius(value).toFixed(2)
 }
+
+// This is another comment in this file
