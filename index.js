@@ -1,4 +1,5 @@
-const zeroInCelcius = 32 // This is the Celcius equivalent to the freezing point
+// Constants required for conversion between temperature measuring systems
+const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
 const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
 
