@@ -1,10 +1,10 @@
-// Constants required for conversion between Celcius & Fahrenheit
+// Constants required for conversion between Celcius & Fahrenheit for clarity
 const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
 const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
 
-// Create input fields for temperature values in both Celcius and Fahrenheit. 
-// This will be used in the temperature conversion logic.
+// Create input fields for temp values in both Celcius and Fahrenheit. 
+// This will be used in the temp conversion logic.
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
