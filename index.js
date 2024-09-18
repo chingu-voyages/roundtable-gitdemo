@@ -3,7 +3,7 @@ const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing poin
 const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
 const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
 
-// Create input fields for temp values in both Celcius and Fahrenheit. 
+// Create input fields for temp numeric values in both Celcius and Fahrenheit. 
 // This will be used in the temp conversion logic.
 const elems = {
   celsius: document.querySelector("input#celsius"),
