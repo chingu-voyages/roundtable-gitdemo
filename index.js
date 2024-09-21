@@ -1,6 +1,6 @@
 // Constants required for conversion between Celcius & Fahrenheit for clarity
 const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
-const tempConvOffset5 = 5 // Celcius to Fahrenheit conversion factor
+const tempConvOffset5 = 5 // C-to-F conversion factor
 const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
 
 // Create input fields for numeric values in both Celcius and Fahrenheit. 
@@ -12,7 +12,7 @@ const elems = {
 
 // Convert Celcius to Fahenheit for non-Metric users. In other words, from Celcius to Imperial.
 function celsiusToFahrenheit(temp) {
-  console.log('celsiusToFahrenheit - temperature: ', temp)
+  console.log(`celsiusToFahrenheit - temperature: ${ temp }`)
   return (temp * tempConvOffset9) / tempConvOffset5 + zeroInCelcius
 }
 
