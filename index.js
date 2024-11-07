@@ -1,7 +1,7 @@
 // Constants required for conversion between Celcius & Fahrenheit for clarity
 const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
-const tempConvOffset5 = 5 // Celcius to Fahrenheit factor to be used for conversion 
-const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
+const tempConvOffset5 = 5 // C to F factor to be used for conversion 
+const tempConvOffset9 = 9 // F to C conversion factor
 
 // Create input fields for numeric values in both Celcius and Fahrenheit. 
 // This will be used in the temperature conversion logic.
