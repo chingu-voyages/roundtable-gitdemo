@@ -1,7 +1,7 @@
 // Constants required for conversion between Celcius & Fahrenheit for clarity
 const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
 const tempConvOffset5 = 5 // Mr. Celcius to Mr. Fahrenheit factor to be used for conversion 
-const tempConvOffset9 = 9 // Farenheit to Celcius conversion factor
+const tempConvOffset9 = 9 // Mr. Farenheit to Mr. Celcius conversion factor
 
 // Create input fields for numeric values in both Mr. Celcius and Mr. Fahrenheit. 
 // This will be used in the temperature conversion logic.
