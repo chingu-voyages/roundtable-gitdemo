@@ -1,5 +1,5 @@
 // Constants required for conversion between Celcius & Fahrenheit
-const zeroInCelcius = 32  // This is the Celcius equivalent to the freezing point
+const zeroInCelcius = 32  // This is the Celcius version of the freezing point
 const tempConvOffset5 = 5 // Celcius to Fahrenheit factor to be used for conversion 
 const tempConvOffset9 = 9 // Fahrenheit to Celcius conversion factor
 
