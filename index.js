@@ -4,7 +4,7 @@ const tempConvOffset5 = 5 // C-to-Fahrenheit factor to be used for conversion
 const tempConvOffset9 = 9 // Fahrenheit to Celsius conversion factor
 
 // Create input fields for numeric values in both Celsius and Fahrenheit. 
-// This will be used in the temperature conversion logic.
+// This will be used by me in the temperature conversion logic.
 const elems = {
   celsius: document.querySelector("input#celsius"),
   fahrenheit: document.querySelector("input#fahrenheit"),
